@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contact Us</title>
+	<link rel="stylesheet" type="text/css" href="../../css/contact_us.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	<section id="s1">
+		<video autoplay loop muted poster="../../image/Muji_Doodle.jpg" id="Muji_Doodle">
+			<source src="../../video/Muji_Doodle.mp4" type="video/mp4">
+		</video>
+	</section>
+
+	<div>
+		<h2>Outsmart your debt with the innovative Manulife One account.</h2>
+	</div>
+  
+  <form action="MAILTO:breaking.lover@gmail.com" method="post" enctype="text/plain">
+	    <h1>Please fill out your information below:</h1>
+	    
+    <div class="contentform">
+    	<div class="leftcontact">
+			      <div class="form-group">
+			        <p>First Name<span>*</span></p>
+			        <span class="icon-case"><i class="fa fa-male"></i></span>
+				        <input type="text" name="nom" id="nom" required/>
+       </div> 
+
+            <div class="form-group">
+            <p>Last Name <span>*</span></p>
+            <span class="icon-case"><i class="fa fa-user"></i></span>
+				<input type="text" name="prenom" id="prenom" required/>
+			</div>
+
+			<div class="form-group">
+			<p>E-mail <span>*</span></p>	
+			<span class="icon-case"><i class="fa fa-envelope-o"></i></span>
+                <input type="email" name="email" id="email" required/>
+			</div>	
+
+			<div class="form-group">
+			<p>Company</p>
+			<span class="icon-case"><i class="fa fa-home"></i></span>
+				<input type="text" name="society" id="society" required/>
+			</div>
+
+			<div class="form-group">
+			<p>Company Address</p>
+			<span class="icon-case"><i class="fa fa-location-arrow"></i></span>
+				<input type="text" name="adresse" id="adresse" required/>
+			</div>
+
+			<div class="form-group">
+			<p>Postcode <span>*</span></p>
+			<span class="icon-case"><i class="fa fa-map-marker"></i></span>
+				<input type="text" name="postal" id="postal" required/>
+			</div>	
+		</div>
+
+		<div class="rightcontact">	
+
+			<div class="form-group">
+			<p>City <span>*</span></p>
+			<span class="icon-case"><i class="fa fa-building-o"></i></span>
+				<input type="text" name="ville" id="ville" required/>
+			</div>	
+
+			<div class="form-group">
+			<p>Phone number <span>*</span></p>	
+			<span class="icon-case"><i class="fa fa-phone"></i></span>
+				<input type="text" name="phone" id="phone" required/>
+			</div>
+
+			<div class="form-group">
+			<p>Function <span>*</span></p>
+			<span class="icon-case"><i class="fa fa-info"></i></span>
+                <input type="text" name="fonction" id="fonction" required/>
+			</div>
+
+			<div class="form-group">
+			<p>Subject <span>*</span></p>	
+			<span class="icon-case"><i class="fa fa-comment-o"></i></span>
+                <input type="text" name="sujet" id="sujet" required/>
+			</div>
+		
+			<div class="form-group">
+			<p>Message</p>
+			<span class="icon-case"><i class="fa fa-comments-o"></i></span>
+                <textarea name="message" rows="14"></textarea>
+			</div>	
+		</div>
+	</div>
+<button type="submit" class="bouton-contact">Send</button>
+<button type="reset" class="bouton-reset">Reset</button>
+	
+</form>	
+
+	<nav id="myNav" class="overlay">
+	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+	  <div class="overlay-content">
+	    <a href="../../index.html">Home</a>
+	    <a href="../about_us/index.html">About Us</a>
+	    <a href="#">Contact Us</a>
+	  </div>
+
+	</nav>
+	<span id="trigger" onclick="openNav()">☰</span>
+	<script>
+	function openNav() {
+	    document.getElementById("myNav").style.width = "50%";
+	}
+
+	function closeNav() {
+	    document.getElementById("myNav").style.width = "0%";
+	}
+	</script>
+  
+</body>
+</html>

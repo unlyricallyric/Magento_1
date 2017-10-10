@@ -1,0 +1,362 @@
+body {
+  margin: auto;
+  background: #eaeaea;  
+  font-family: 'Open Sans', sans-serif;
+}
+
+.info p {
+  text-align:center;
+  color: #999;
+  text-transform:none;
+  font-weight:600;
+  font-size:15px;
+  margin-top:2px
+}
+
+.info i {
+  color:#F6AA93;
+}
+
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+ background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+}
+
+form h1 {
+  font-size: 18px;
+  background: #505359 none repeat scroll 0% 0%;
+  color: rgb(255, 255, 255);
+  padding: 22px 25px;
+  border-radius: 5px 5px 0px 0px;
+  margin: auto;
+  text-shadow: none; 
+  text-align:left
+}
+
+form {
+  border-radius: 5px;
+  max-width:700px;
+  width:100%;
+  margin: 5% auto;
+  background-color: #FFFFFF;
+  overflow: hidden;
+}
+
+p span {
+  color: #F00;
+}
+
+p {
+  margin: 0px;
+  font-weight: 500;
+  line-height: 2;
+  color:#333;
+}
+
+h1 {
+  text-align:center; 
+  color: #666;
+  text-shadow: 1px 1px 0px #FFF;
+  margin:50px 0px 0px 0px
+}
+
+h2 {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 50px;
+  width: 500px;
+  line-height: 1;
+  -webkit-animation: jump 1.5s ease 0s infinite normal ;
+  animation: jump 1.5s ease 0s infinite normal ;
+}
+
+@-webkit-keyframes jump {
+  0%{
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  }
+  20%{
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  }
+  40%{
+  -webkit-transform: translateY(-30px);
+  transform: translateY(-30px);
+  }
+  50%{
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  }
+  60%{
+  -webkit-transform: translateY(-15px);
+  transform: translateY(-15px);
+  }
+  80%{
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  }
+  100%{
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  }
+}
+
+@keyframes jump {
+  0%{
+  transform: translateY(0);
+  }
+  20%{
+  transform: translateY(0);
+  }
+  40%{
+  transform: translateY(-30px);
+  }
+  50%{
+  transform: translateY(0);
+  }
+  60%{
+  transform: translateY(-15px);
+  }
+  80%{
+  transform: translateY(0);
+  }
+  100%{
+  transform: translateY(0);
+  }
+}
+
+input {
+  border-radius: 0px 5px 5px 0px;
+  border: 1px solid #eee;
+  margin-bottom: 15px;
+  width: 75%;
+  height: 40px;
+  float: left;
+  padding: 0px 15px;
+}
+
+a {
+  text-decoration:inherit
+}
+
+textarea {
+  display:block;
+  width:60%;
+  height: 110px;
+  padding:10px;
+  border-radius:  4px;
+  border: 1px solid #000;
+  background-color: #fff;
+  font-size: 16px;
+  font-family:Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  resize:none;
+  color:#333;
+  margin-bottom: 24px;
+  transition:all .3s;
+}
+
+textarea:focus {
+  background-color:  #949699;
+  color:#fff;
+  outline:none;
+}
+
+.form-group {
+  overflow: hidden;
+  clear: both;
+}
+
+.icon-case {
+  width: 35px;
+  float: left;
+  border-radius: 5px 0px 0px 5px;
+  background:#eeeeee;
+  height:42px;
+  position: relative;
+  text-align: center;
+  line-height:40px;
+}
+
+i {
+  color:#555;
+}
+
+.contentform {
+  padding: 40px 30px;
+}
+
+.bouton-contact{
+  background-color: #505359;
+  color: #FFF;
+  text-align: center;
+  width: 100%;
+  border:0;
+  padding: 17px 25px;
+  border-radius: 0px 0px 5px 5px;
+  cursor: pointer;
+  margin-top: 40px;
+  font-size: 18px;
+}
+
+.bouton-reset{
+  background-color: #505359;
+  color: #FFF;
+  text-align: center;
+  width: 100%;
+  border:0;
+  padding: 17px 25px;
+  border-radius: 0px 0px 5px 5px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+.leftcontact {
+  width:49.5%; 
+  float:left;
+  border-right: 1px dotted #CCC;
+  box-sizing: border-box;
+  padding: 0px 15px 0px 0px;
+}
+
+.rightcontact {
+  width:49.5%;
+  float:right;
+  box-sizing: border-box;
+  padding: 0px 0px 0px 15px;
+}
+
+.validation {
+  display:none;
+  margin: 0 0 10px;
+  font-weight:400;
+  font-size:13px;
+  color: #DE5959;
+}
+
+#sendmessage {
+  border:1px solid #fff;
+  display:none;
+  text-align:center;
+  margin:10px 0;
+  font-weight:600;
+  margin-bottom:30px;
+  background-color: #EBF6E0;
+  color: #5F9025;
+  border: 1px solid #B3DC82;
+  padding: 13px 40px 13px 18px;
+  border-radius: 3px;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.03);
+}
+
+#sendmessage.show,.show  {
+  display:block;
+}
+
+input[type=text], input[type=email] {
+  width:60%;
+  height:20px;
+  padding:10px;
+  margin:0 0 14px;
+  display:block;
+  border:1px solid #000;
+  /*border-radius: 4px;*/
+  font-size:20px;
+  font-family:Georgia, "Times New Roman", Times, serif;
+  color:#393a3d;
+  background: #fff;
+  border-radius:6px;
+  outline:none;
+  transition:all .3s;
+}
+
+input[type=text]:focus, input[type=email]:focus {
+  width:100%;
+  background: #949699;
+  color:#393a3d;
+}
+
+#trigger {
+    font-size: 20px;
+    cursor:pointer;
+    position:fixed;
+    top:20px;
+    right:20px;
+    z-index:9;
+    color: #fff;
+    font-weight: bold;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed; 
+    z-index: 10; 
+    right: 0;
+    top: 0;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.8); 
+    overflow-x: hidden; 
+    transition: 0.5s; 
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%; 
+    width: 100%; 
+    text-align: center; 
+    margin-top: 30px; 
+}
+
+.overlay a {
+    padding: 12px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block; 
+    transition: 0.3s; 
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 35px;
+}
+
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+    h2 {
+      font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    h2 {
+      font-size: 30px;
+      line-height: 1;
+      padding-top: 50px;
+      width: auto;
+    }
+}
+
